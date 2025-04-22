@@ -1,0 +1,13 @@
+# Default values for n8n-kubernetes-hosting Helm chart
+
+# PostgreSQL configuration
+postgresAdminUser: admin
+postgresAdminPassword: admin_password
+postgresDb: n8n
+postgresNonRootUser: n8n_user
+postgresNonRootPassword: n8n_password
+
+# Ingress configuration
+globalStaticIpName: n8n-static-ip
+managedCertificates: n8n-managed-cert
+frontendConfig: http-to-https
