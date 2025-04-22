@@ -1,0 +1,12 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: managed-cert
+  namespace: n8n
+spec:
+  domains:
+    - n8n.aigents.services
+  # Optional: Specify the status of the certificate
+  # status:
+  #   state: ACTIVE
+  #   message: Certificate is active and valid.
