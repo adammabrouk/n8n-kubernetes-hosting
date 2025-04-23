@@ -27,3 +27,9 @@ into cloud provider specific branches.
 If you have a contribution specific to a cloud provider, please open your PR to
 the relevant branch.
 # n8n-kubernetes-hosting
+
+Login command
+
+```sh
+gcloud auth application-default login --no-launch-browser
+```
